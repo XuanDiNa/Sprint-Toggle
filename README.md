@@ -1,4 +1,4 @@
-# AutoSprint
+# Sprint Toggle
 
 A Minecraft Bedrock Edition mod that provides auto-sprint functionality similar to Java Edition.
 
