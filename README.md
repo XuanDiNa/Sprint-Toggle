@@ -1,6 +1,6 @@
 # Sprint Toggle
 
-A Minecraft Bedrock Edition mod that provides auto-sprint functionality similar to Java Edition.
+A Minecraft Bedrock Edition mod that provides sprint-toggle functionality similar to Java Edition.
 
 ---
 
@@ -16,7 +16,7 @@ A Minecraft Bedrock Edition mod that provides auto-sprint functionality similar 
 
 ### 1. Download DLL
 
-Download the latest `.dll` file from [Releases](https://github.com/yourusername/AutoSprint/releases).
+Download the latest `.dll` file from [Releases](https://github.com/XuanDiNa/Sprint-Toggle/releases).
 
 ### 2. Install
 
@@ -42,8 +42,7 @@ Download the latest `.dll` file from [Releases](https://github.com/yourusername/
 ```bash
 # Install xmake
 # Clone project
-git clone https://github.com/yourusername/AutoSprint.git
-cd AutoSprint
+git clone https://github.com/XuanDiNa/Sprint-Toggle.git
 
 # Build
 xmake build
