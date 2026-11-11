@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 5,
+  "plugin": {
+    "id": "ToggleSprint",
+    "entry": "ToggleSprint.dll",
+    "versions": [
+      "0.1.0-test7-leftalt"
+    ]
+  },
+  "config": {
+    "file": "config.json",
+    "reload": "hot"
+  },
+  "fields": [
+    {
+      "path": "/mode",
+      "type": "choice",
+      "default": 1,
+      "label": {
+        "en_US": "Sprint mode",
+        "zh_TW": "疾跑模式",
+        "zh_CN": "疾跑模式"
+      },
+      "description": {
+        "en_US": "Off uses vanilla controls. Toggle retains its latch across menus; press the key again in gameplay to unlatch. Force requests sprint while moving forward. Vanilla restrictions still apply.",
+        "zh_TW": "關閉時使用原版控制；切換模式開介面仍保留鎖定，返回遊戲再按一次鍵才解除；強制模式向前移動時持續請求疾跑。仍遵守原版限制。",
+        "zh_CN": "关闭时使用原版控制；切换模式打开界面仍保留锁定，返回游戏再按一次键才解除；强制模式向前移动时持续请求疾跑。仍遵守原版限制。"
+      },
+      "options": [
+        {
+          "en_US": "Off",
+          "zh_TW": "關閉",
+          "zh_CN": "关闭"
+        },
+        {
+          "en_US": "Toggle Sprint",
+          "zh_TW": "切換疾跑",
+          "zh_CN": "切换疾跑"
+        },
+        {
+          "en_US": "Force Sprint",
+          "zh_TW": "強制疾跑",
+          "zh_CN": "强制疾跑"
+        }
+      ]
+    },
+    {
+      "path": "/toggleKey",
+      "type": "binding",
+      "default": "LCTRL",
+      "label": {
+        "en_US": "Toggle key",
+        "zh_TW": "疾跑切換鍵",
+        "zh_CN": "疾跑切换键"
+      },
+      "description": {
+        "en_US": "Keyboard shortcut; exact Ctrl/Shift/Left Alt combinations supported. Hold the modifiers, then press the primary key. Escape clears the binding; Backspace is bindable.",
+        "zh_TW": "鍵盤快捷鍵，支援精確的 Ctrl／Shift／左 Alt 組合；先按住修飾鍵，再按主鍵。Esc 解除綁定，Backspace 可綁定。",
+        "zh_CN": "键盘快捷键，支持精确的 Ctrl／Shift／左 Alt 组合；先按住修饰键，再按主键。Esc 解除绑定，Backspace 可绑定。"
+      }
+    }
+  ]
+}

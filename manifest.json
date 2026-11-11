@@ -1,0 +1,6 @@
+{
+  "name": "ToggleSprint",
+  "entry": "ToggleSprint.dll",
+  "version": "0.1.0-test7-leftalt",
+  "type": "preload-native"
+}

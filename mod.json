@@ -1,0 +1,10 @@
+{
+  "id": "ToggleSprint",
+  "name": "Toggle Sprint",
+  "version": "0.1.0-test7-leftalt",
+  "author": "XuanDiNa",
+  "dll": "ToggleSprint.dll",
+  "description": "Client-side toggle and force sprint for Minecraft Bedrock 1.26.52.03.",
+  "config": "config.json",
+  "schema": "config.schema.json"
+}

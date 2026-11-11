@@ -1,0 +1,245 @@
+{
+  "schema": 1,
+  "sha256": "4A92BFA3CE2428B40EE517B7C1125D9F6F79274382DE03846351992663B2E2E4",
+  "launcherSha256": "0B66101DC873434E853A898329CB85CEE0DE52D0AE91AC796EFA0FE05B61522C",
+  "targets": [
+    {
+      "name": "bulkEntity",
+      "rva": "0xb1a5490",
+      "end": "0xb1a566d",
+      "bytes": "5541574156415541545657534881ecf8000000488dac248000000048c74570fe",
+      "validation": "runtime"
+    },
+    {
+      "name": "singleEntity",
+      "rva": "0xb1a8140",
+      "end": "0xb1a856c",
+      "bytes": "4157415641554154565755534881eca80100004c89c6488d8c24a8000000e8bd",
+      "validation": "runtime"
+    },
+    {
+      "name": "inputDispatch",
+      "rva": "0x6693b20",
+      "end": "0x6698430",
+      "bytes": "5541574156415541545657534881ece8040000488dac248000000048c7856004",
+      "validation": "runtime"
+    },
+    {
+      "name": "rawInputCopy",
+      "rva": "0x6688630",
+      "end": "0x6688778",
+      "bytes": "5657534883ec404c89ce4d89c14c8b842488000000488b842480000000448b52",
+      "validation": "runtime"
+    }
+  ],
+  "guards": [
+    {
+      "name": "intentConsumer",
+      "rva": "0xb1a4f00",
+      "end": "0xb1a5317",
+      "bytes": "4157415641554154565755534c8b9c2498000000488b328b4208498b1b83e308",
+      "validation": "runtime"
+    },
+    {
+      "name": "poolResolver",
+      "rva": "0xb1a5320",
+      "end": "0xb1a5484",
+      "bytes": "4157415641554154565755534883ec384889d64889cfbac58de76de8704908f5",
+      "validation": "runtime"
+    },
+    {
+      "name": "singleContext",
+      "rva": "0xb1a8620",
+      "end": "0xb1a877b",
+      "bytes": "5657534881ec900000004889ce488b0a48890e488d7e080f57c00f1146080f11",
+      "validation": "runtime"
+    },
+    {
+      "name": "ownerResolverEvidence",
+      "rva": "0x1c4350",
+      "end": "0x1c4471",
+      "bytes": "564883ec404889d64889ca488d4c2420e81bc03f02807c2438000f84f9000000",
+      "validation": "runtime"
+    },
+    {
+      "name": "localPlayerGetter",
+      "rva": "0x5daed30",
+      "end": "0x5daed87",
+      "bytes": "4883ec48488b0545b3a20b4831e04889442440488d9148020000488d4c2420e8",
+      "validation": "runtime"
+    },
+    {
+      "name": "localOwner",
+      "rva": "0x476e930",
+      "end": "0x476eaa8",
+      "bytes": "5657534c8b51088b49104d8b4a48498b42504c29c848c1e80341bbffffffff49",
+      "validation": "runtime"
+    },
+    {
+      "name": "gameplay",
+      "rva": "0x5dc2140",
+      "end": "0x5dc22a7",
+      "bytes": "5556574883ec50488d6c245048c745f8feffffff4889ce488b01488b80500700",
+      "validation": "runtime"
+    },
+    {
+      "name": "focus",
+      "rva": "0x5dc0c80",
+      "end": "0x5dc0d52",
+      "bytes": "564883ec30488b01488b8078090000ff1513ae33094889c648833800753b488d",
+      "validation": "runtime"
+    },
+    {
+      "name": "deadFlag",
+      "rva": "0x19dd800",
+      "end": "0x19dd9ce",
+      "bytes": "56574883ec280fb601a8040f85a60000004c8b4a10448b42184d8b51484d8b59",
+      "validation": "runtime"
+    },
+    {
+      "name": "localClientEvidence",
+      "rva": "0x476db90",
+      "end": "0x476e428",
+      "bytes": "554157415641545657534881ecd0000000488dac248000000048c74548feffff",
+      "validation": "disk-evidence"
+    },
+    {
+      "name": "stopEventConsumer",
+      "rva": "0xb1aa300",
+      "end": "0xb1aa5c3",
+      "bytes": "41574156415541545657534881ecd00000004c8b2a4d85ed0f845e0200004c89",
+      "validation": "runtime"
+    },
+    {
+      "name": "sprintTransition",
+      "rva": "0xb17caa0",
+      "end": "0xb17cf5d",
+      "bytes": "5541574156415541545657534881eca8000000488dac248000000048c74520fe",
+      "validation": "runtime"
+    },
+    {
+      "name": "processedInputBuilder",
+      "rva": "0x6698470",
+      "end": "0x6698c8b",
+      "bytes": "4157415641554154565755534881ecb8000000488b8424600100004c8b942470",
+      "validation": "runtime"
+    },
+    {
+      "name": "rawInputConsumer",
+      "rva": "0x6688780",
+      "end": "0x668883c",
+      "bytes": "564883ec404c89c84889ce4c8b4c24704c8b542478488b4a104c895424204c89",
+      "validation": "runtime"
+    },
+    {
+      "name": "rawCallbackCaller",
+      "rva": "0x6698e10",
+      "end": "0x6698f23",
+      "bytes": "5541574156415541545657534883ec78488d6c247048c74500feffffff4c89cf",
+      "validation": "runtime"
+    },
+    {
+      "name": "nativeMovementConversion",
+      "rva": "0x4495e0",
+      "end": "0x44980b",
+      "bytes": "4889c8f30f105204f30f105a080f57c00f2ed00f85a10000000f8a9b0000000f",
+      "validation": "runtime",
+      "boundary": "bounded-leaf-no-pdata"
+    }
+  ],
+  "abi": {
+    "bulkEntity": "uintptr_t(dispatch*,uint32_t*,void*,void*,void*,void*,void*,void*,void*,void*,void*)",
+    "singleEntity": "uintptr_t(system*,registry**,uint32_t*)",
+    "bulkMoveArgument": 5,
+    "singleRegistryArgument": 2,
+    "inputDispatch": "uintptr_t(system*,registry**)",
+    "rawInputCopy": "uintptr_t(void*,MoveInput*,void*,RawMoveInput*,SneakRef*,void*)"
+  },
+  "localPlayerGate": {
+    "registryMapOffset": 48,
+    "localTag": "0xacb47b38",
+    "ownerTag": "0x85b93800",
+    "deadTag": "0x710a62c4",
+    "playerTable": "0xe8e1bc0",
+    "clientTable": "0xe9731b0",
+    "clientOffset": 3440,
+    "sparseGenerationMask": "0xfffc0000",
+    "validPackedMaximum": "0x3fffe"
+  },
+  "worldUiGate": {
+    "gameplay": "0x5dc2140",
+    "focus": "0x5dc0c80",
+    "inputEnabledOffset": 712,
+    "localGetter": "0x5daed30",
+    "processForeground": true,
+    "inputGapReprimeMs": 500
+  },
+  "movementIntent": {
+    "component": "RawMoveInputComponent",
+    "hash": "0x3613e513",
+    "size": 24,
+    "offset": 0,
+    "mask": 256,
+    "physicalComponent": "MoveInputComponent",
+    "physicalHash": "0x18b1887",
+    "physicalSize": 100,
+    "physicalOffset": 16,
+    "qualifying": "finite combined native x/y at +16/+20; y>0; length>=0.70710677; abs(x)<=0.70710677",
+    "lifetime": "post-copy amend raw sprint only; refreshed from untouched physical input next tick; no late derived flag writes",
+    "identity": "synchronous input dispatch registry; Sneaking ref pool; local tag generation; exact raw/move pointers; verified actor/client"
+  },
+  "stopRequest": {
+    "requestHash": "0x6b04a058",
+    "requestSize": 40,
+    "stopOffset": 10,
+    "gameplayHash": "0xa406686e",
+    "gameplaySize": 80,
+    "latchOffset": 25,
+    "actionsHash": "0x3000f399",
+    "actionsSize": 368,
+    "eventOffset": 1,
+    "eventMask": 4,
+    "producer": "0xb1a4f00",
+    "consumer": "0xb1aa300",
+    "transition": "0xb17caa0",
+    "when": "one fresh Toggle unlatch queued from raw stage; suppress only raw SprintDown while key held"
+  },
+  "callers": [
+    {
+      "owner": "0xb1a56e0",
+      "site": "0xb1a5d20",
+      "target": "0xb1a5490"
+    },
+    {
+      "owner": "0xb1a8140",
+      "site": "0xb1a8552",
+      "target": "0xb1a4f00"
+    },
+    {
+      "owner": "0xb1aa300",
+      "site": "0xb1aa563",
+      "target": "0xb17caa0"
+    },
+    {
+      "owner": "0x6688630",
+      "site": "0x6688755",
+      "target": "0x4495e0"
+    }
+  ],
+  "evidenceFiles": [
+    "ida-pass2.json",
+    "ida-pass3.json",
+    "ida-pass5.json",
+    "ida-pass6.json",
+    "ida-pass7.json",
+    "ida-pass10.json",
+    "ida-pass11.json",
+    "ida-pass12.json",
+    "ida-pass13.json",
+    "ida-pass14.json",
+    "ida-pass15.json",
+    "ida-pass16.json",
+    "ida-pass17.json"
+  ],
+  "scope": "original-image IDA only; no gameplay proof"
+}

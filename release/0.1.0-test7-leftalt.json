@@ -1,0 +1,33 @@
+{
+  "plugin": "ToggleSprint",
+  "version": "0.1.0-test7-leftalt",
+  "repository": "https://github.com/XuanDiNa/Sprint-Toggle",
+  "minecraft": "1.26.52.03",
+  "platform": "Windows x64",
+  "modMenu": "0.6.0-test5-leftalt",
+  "settingsSchemaVersion": 5,
+  "bindingSdkContract": 2,
+  "gameplayAcceptance": "pending",
+  "frozenDllSha256": "09C9BD5051F6E67E889BEEC55ECF976940FBEE45831D037488726C32CED0F2EB",
+  "frozenDllMatchesMatchedTestBundle": true,
+  "publicSourceOfflineChecks": 2462,
+  "debugAndReleaseSuitesPassed": true,
+  "standaloneDefaultBuildPassed": true,
+  "exactOriginalAndLauncherImageChecksPassed": true,
+  "schemaTestsPassed": true,
+  "metadataMutationsRejected": 5,
+  "artifactMutationsRejected": 16,
+  "updateConfigPreservationTestPassed": true,
+  "archives": [
+    {
+      "file": "ToggleSprint-0.1.0-test7-leftalt-mc1.26.52.03-win-x64-full.zip",
+      "bytes": 221080,
+      "sha256": "B1C82B1D134722917EB736324F0346D8C4037B215767665F2AE2A39F427F8F0D"
+    },
+    {
+      "file": "ToggleSprint-0.1.0-test7-leftalt-mc1.26.52.03-win-x64-update.zip",
+      "bytes": 220879,
+      "sha256": "6B4D3B464FC510DCA6C039B0596560A2F720F9DA05E27CD6AEAB1128D587E163"
+    }
+  ]
+}
